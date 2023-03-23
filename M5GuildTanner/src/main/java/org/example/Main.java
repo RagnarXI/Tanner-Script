@@ -34,7 +34,6 @@ public class Main extends AbstractScript {
        processConfigs();
        buildPaint();
        adjustCamera();
-       getLog().info(material.hide);
     }
 
     @Override
