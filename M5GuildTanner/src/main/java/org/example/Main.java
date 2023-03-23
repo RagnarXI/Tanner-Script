@@ -39,8 +39,6 @@ public class Main extends AbstractScript {
     @Override
     public void poll() {
 
-        System.out.println("Aasa");
-
       if (Inventory.stream().name(hide).list().size() != 27 && getFloor() == 1){
 
           status = "Taking hide from bank";
