@@ -16,7 +16,7 @@ import static org.powbot.dax.engine.WaitFor.random;
 @ScriptConfiguration(description = "Which material would you like to tan?", name = "Material", allowedValues = {"Green dragonhide", "Blue dragonhide", "Red dragonhide", "Black dragonhide"})
 @ScriptConfiguration(description = "Use stamina potions?", name = "Stamina", optionType = OptionType.BOOLEAN)
 @ScriptManifest(name= "M5GuildTanner", description="Tans leather in the Crafting Guild. Uses the bank chest (99 Crafting required!).",
-                version = "1.0", category = ScriptCategory.MoneyMaking)
+                version = "1.0", category = ScriptCategory.MoneyMaking, author = "M5")
 public class Main extends AbstractScript {
 
     public static void main(String[] args) {
